@@ -3,7 +3,7 @@
 import csv, re, sys, os
 import xml.etree.ElementTree as ET
 from Bio import Entrez
-Entrez.email = 'jason.stajich@ucr.edu'
+Entrez.email = 'ADD_YOUR_EMAIL'
 insamples = "assemblies.tsv"
 outsamples="assemblies_pubmed.tsv"
 

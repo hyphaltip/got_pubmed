@@ -4,7 +4,7 @@ import csv, re, sys, os
 import xml.etree.ElementTree as ET
 from Bio import Entrez
 Entrez.email = 'ADD_YOUR_EMAIL'
-insamples = "bioproject.csv"
+insamples = "bioproject.tsv"
 outsamples="bioproject_prefix.csv"
 
 if len(sys.argv) > 1:
