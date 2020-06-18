@@ -14,3 +14,6 @@ Running the Tools
 
 * Get BioProject, BioSamples, NCBI Locus Prefix, and SRA numbers
 `./fetch_samples_prefix.py examples/bioproject.tsv`
+
+* Get Taxonomy from NCBI via entrez
+`./fetch_taxonomy_for_query.py examples/names.tsv`
